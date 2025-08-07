@@ -25,9 +25,10 @@ function App() {
   }
 
   function consoleLog() {
-    console.log("*** todos: " + todos)
+    console.log("*** todos.at(0): " + todos.at(0))
     console.log("*** setTodos: " + setTodos)
-    console.log("*** user: " + user)
+    console.log("*** user.userId: " + user.userId)
+    console.log("*** user.username: " + user.username)
     console.log("*** signOut: " + signOut)
   }
 
