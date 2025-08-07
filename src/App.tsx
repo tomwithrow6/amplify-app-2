@@ -25,7 +25,10 @@ function App() {
   }
 
   function consoleLog() {
-    console.log("**** BiteMe ****")
+    console.log("*** todos: " + todos)
+    console.log("*** setTodos: " + setTodos)
+    console.log("*** user: " + user)
+    console.log("*** signOut: " + signOut)
   }
 
   return (
